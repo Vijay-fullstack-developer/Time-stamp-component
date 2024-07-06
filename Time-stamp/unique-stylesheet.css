@@ -1,0 +1,45 @@
+.layout {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 30px 50px;
+    background-color: bisque;
+    border-radius: 22px;
+
+}
+
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    width: 94%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    margin: 100px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.red {
+    border: 3px solid rgb(211, 116, 61);
+}

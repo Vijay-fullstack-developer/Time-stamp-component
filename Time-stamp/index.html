@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timestamp Converter</title>
+    <link rel="stylesheet" href="./unique-stylesheet.css">
+    <script src="./javascript-file.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="layout">
+
+            <h2>Timestamp to Date and Time Converter</h2>
+            <form id="timestampForm">
+                <label for="timestampInput">Enter Timestamp:</label>
+                <br>
+                <input type="text" id="timestampInput" name="timestampInput"
+                    placeholder="Enter timestamp (e.g., 1645999200)" required>
+                <span id="error-text"></span>
+                <br><br>
+                <button type="button" onclick="convertTimestamp()">Convert</button>
+            </form>
+            <div id="result"></div>
+            <div id="Input-error"></div>
+
+            <div id="button-click">
+                <h2>Live Time</h2>
+                <button onclick="on_click()" id="click-on"> Click </button>
+            </div>
+        </div>
+
+</body>
+
+</html>
